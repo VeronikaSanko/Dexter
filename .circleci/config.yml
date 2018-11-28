@@ -4,11 +4,7 @@
 #
 version: 2
 jobs:
-  build:
-  branches:
-  only:
-  - circleci
-  
+  build:  
   docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
